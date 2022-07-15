@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styles from './ImageGallery.module.css';
 
-const ImageGallery = ({ images }) => {
-  return (
-    <ul className={styles.imageGallery}>
-      <li></li>
-    </ul>
-  );
-};
+class ImageGallery extends Component {
+  render() {
+    return (
+      <ul className={styles.imageGallery}>
+        <li></li>
+      </ul>
+    );
+  }
+}
 
 export default ImageGallery;

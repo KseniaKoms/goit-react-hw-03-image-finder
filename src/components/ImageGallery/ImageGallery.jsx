@@ -63,7 +63,7 @@ class ImageGallery extends Component {
     }));
   };
   render() {
-    const { images, error, status, tags, showModal, largeImg, totalPages } =
+    const { images, status, tags, showModal, largeImg, totalPages } =
       this.state;
     return (
       <>

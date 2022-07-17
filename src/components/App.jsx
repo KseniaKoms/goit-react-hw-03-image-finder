@@ -4,7 +4,6 @@ import styles from './App.module.css';
 import { ToastContainer } from 'react-toastify';
 import ImageGallery from './ImageGallery';
 import 'react-toastify/dist/ReactToastify.css';
-import Button from './Button/Button';
 
 export class App extends Component {
   state = {
@@ -30,7 +29,6 @@ export class App extends Component {
           page={this.state.page}
           showMore={this.loadMore}
         />
-        {/* <Button onClick={this.loadMore} /> */}
         <ToastContainer autoClose={3000} />
       </div>
     );
